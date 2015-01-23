@@ -1,0 +1,30 @@
+{
+  "name": "line-wrap",
+  "version": "1.0.0",
+  "description": "writable stream that reformats text and wraps lines to a specific line width (default 80).",
+  "main": "index.js",
+  "bin": {
+    "line-wrap": "bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "max ogden",
+  "license": "BSD",
+  "dependencies": {
+    "minimist": "^1.1.0",
+    "pumpify": "^1.3.3",
+    "split2": "^0.2.1",
+    "through2": "^0.6.3",
+    "visualwidth": "^0.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/line-wrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/line-wrap/issues"
+  },
+  "homepage": "https://github.com/maxogden/line-wrap"
+}
